@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header> Cronometro</header>
+
+    <section>
+        <div>
+            <p>
+            <p>Nome Evento<input type="text" name="txt" class="txt"></p>
+            <!-- Data
+            dia<input type="number" name="dia" min="1" max="31" class="dia">/
+            mes<input type="number" name="mes" min="1" max="12" class="mes">/
+            ano<input type="number" name="ano" min="2021" max="2121" class="ano">
+            </p> -->
+            <input type="date" class="date">
+            <p> Hora
+                hr<input type="number" name="hr" min="0" max="23" class="hr">:
+                min<input type="number" name="min" min="0" max="59" class="min">:
+                sec<input type="number" name="seg" min="0" max="59" class="seg">
+            </p>
+
+            <input type="button" value="Iniciar" class="bCono">
+        </div>
+        <h1 class="tempo"> 00:00:00 </h1>
+    </section>
+
+
+
+    <footer> &copy; Lion Expo</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
